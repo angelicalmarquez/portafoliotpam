@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!-- Metadatos -->
+    <meta charset="utf-8">
+    <meta name="author" content="Angélica Márquez">
+    <meta name="description" content="Portafolio evidencias Tecnolochicas Pro">
+    <meta name="keywords" content="HTML, CSS, JavaScript, React">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Titulo -->
+    <title>Angélica Márquez</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="imagenes/profile photo.jpg">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- Iconos de Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!-- CSS -->
+    <link href="style.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Rubik+Dirt&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Barra de navegacion -->
+    <nav class="navbar navbar-expand-md navbar-light">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-toggler">
+          <a class="navbar-brand" href="#">
+            <img src="imagenes/tecnolochicas.png" width="50" alt="Logo de la página web">
+          </a>
+          <ul class="navbar-nav d-flex justify-content-center align-items-center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#sobre-mi">Conóceme</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#proyectos">Mis Proyectos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonios">Testimonios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacto">Cotáctame</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Seccion Hero -->
+    <section class="hero align-items-stretch">
+      <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+        <img class="hero-imagen-desarrollador rounded-circle" src="imagenes/profile photo.jpg" alt="Angélica Márquez">
+        <h1>Hola, soy Angélica Márquez</h1>
+        <!--<h2>Desarrollo sitios web y escribo artículos sobre programación.</h2>-->
+
+        <!--Animación con JavaScript-->
+        <h2 class="text-primary mb-4" id="typewriter"></h2>
+      </div>
+      <div class="hero-inferior">
+        <img class="hero-inferior-imagen img-fluid" src="imagenes/hero-inferior.svg" alt="Monitor, laptop y logos de HTML, CSS, JavaScript y React.">
+      </div>
+    </section>
+
+    <!-- Sobre mi -->
+    <section id="sobre-mi" class="sobre-mi seccion-oscura">
+      <div class="contenedor">
+        <h2 class="seccion-titulo">Un poco sobre mí</h2>
+        <p class="seccion-texto">  
+          ¡Hola, hola! Mi nombre es Angélica Lizbeth Márquez Sotomayor, pero mis amigos me llaman "Angie",
+          tengo 16 años y estoy a punto de pasar a 5° semestre de preparatoria, donde estudio la carrera técnica
+          de laboratorista clínico, sin embargo en 2° semestre tuve un poco de contacto con HTML y CSS, esa es la
+          razón por la cual decidí aplicar a la beca de Tecnolochicas Pro, para aumentar mis conocimientos. <br>
+          En un año voy a pasar a la universidad y me gustaría estudiar alguna ingeniería, mientras espero a que esto pase
+          me gusta ser parte de proyectos escolares que puedan servirme en mi currículum.
+        </p>
+      </div>
+    </section>
+
+    <!-- Experiencia -->
+    <section class="experiencia seccion-clara">
+      <div class="container text-center">
+        <div class="row">
+          <!-- Desarrollo Web -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Desarrollo Web</p>
+            <p>
+              A lo largo de dos años he podido desarrollar algunas páginas web con lenguaje de programación HTML y CSS, 
+              como el clon de google, una página sobre gatos, y anteriormente algunas páginas sobre cantantes, Europa, 
+              o emprendimientos, estas 3 últimas con fines escolares.
+            </p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">HTML</span>
+              <span class="badge text-bg-primary">CSS</span>
+              <span class="badge text-bg-primary">JavaScript</span>
+              <span class="badge text-bg-primary">React</span>
+            </div>
+          </div>
+          <!-- Articulos -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Mi futuro</p>
+            <p>En el futuro me encantaría estudiar Ingeniería Química, puesto que me gusta mucho pasar tiempo en un labotatorio
+              sin embargo, me encantaría expandir mis conocimientos en el mundo de la programación y la tecnología, ya que esto
+            es el futuro y me gustaría contribuir en el mismo. </p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">Química</span>
+              <span class="badge text-bg-primary">Universidad</span>
+              <span class="badge text-bg-primary">Revolución</span>
+            </div>
+          </div>
+          <!-- Estudiante -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Estudiante</p>
+            <p> Actualmente cuento con un promedio general de 9.1, destacando especialmente en las matemáticas y el inglés,
+              se me facilita aprender cosas nuevas, aunque si estás son del área de biología necesito estudiarlo un poco más.
+            </p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">Tecnolochicas PRO</span>
+              <span class="badge text-bg-primary">Matemáticas</span>
+              <span class="badge text-bg-primary">Biología</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Proyectos -->
+    <section id="proyectos" class="proyectos-recientes seccion-clara d-flex flex-column">
+      <h2 class="seccion-titulo texto-negro">Algunos de mis proyectos</h2>
+      <h3 class="seccion-descripcion">Te invito a conocer algunas de mis creaciones</h3>
+      <!-- Galeria de Proyectos -->
+      <div class="container text-center proyectos-contenedor">
+        <div class="row">
+          <!-- Proyecto 1 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="https://okdiario.com/img/2021/04/20/curiosidades-sobre-los-gatos-domesticos-635x358.jpg" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Mundo Animal</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/angelicalmarquez/mundoanimalgatos" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://mundoanimalgatunoam.netlify.app" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 3 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="data:image/jpeg;base64,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" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Clon de Google</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/angelicalmarquez/clon_google_am" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://clongoogleanlizm.netlify.app" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+    </section>
+
+    <!-- Testimonios -->
+    <section id="testimonios" class="testimonios seccion-clara">
+      <h2 class="seccion-titulo">Testimonios</h2>
+      <h3 class="seccion-descripcion">Estos son algunos testimonios de mis clientes...</h3>
+      
+      <!-- Carrusel -->
+      <div id="testimonios-carrusel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="https://media.discordapp.net/attachments/1125470234124497016/1134275253921644574/perfil.jpg?width=358&height=397" alt="Foto de Gino">
+              <p class="testimonio-texto">Durante el bootcamp TECNOLOchicas Angélica Márquez ha demostrado sus habilidades y destrezas en la programación frontend. Es una persona que le gusta aprender y estar en constante crecimiento, es comprometida, participativa y trabajadora.</p>
+              <div class="testimonio-info">
+                <p class="cliente">-Keren Mitsue</p>
+                <p class="cargo">Tecnolochica</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="https://media.discordapp.net/attachments/1125470234124497016/1134279067181527150/IMG_20230208_083419_659.png?width=223&height=396" alt="Foto de Nora">
+              <p class="testimonio-texto">Me complace recomendar a Angélica Márquez dado que sus habilidades demostradas durante el bootcamp de Tecnolochicas mostró ser una persona enfocada en aprender, conocer y practicar continuamente para desarrollar sus habilidades como desarrolladora fronted jr.</p>
+              <div class="testimonio-info">
+                <p class="cliente">-Jennifer Morales</p>
+                <p class="cargo">Tecnolochica</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="https://media.discordapp.net/attachments/1125470234124497016/1135005709411553350/20221025_092702.jpg?width=529&height=397" alt="Foto de Leonardo">
+              <p class="testimonio-texto">Tuve el gusto de conocer a Angélica Márquez en el bootcamp de TECNOLOchicas, fui testigo de su entusiasmo y proactividad para incursionar en el mundo Tech, demostrando su interés y compromiso por mejorar cada día sus habilidades como desarrolladora Frontend Jr. </p>
+              <div class="testimonio-info">
+                <p class="cliente">-Grecia Olalde</p>
+                <p class="cargo">Tecnolochica</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="contacto seccion-oscura">
+      <div class="container">
+        <div class="container text-center rectangulo d-flex justify-content-evenly">
+          <div class="row">
+            <div class="col-12 col-md-4 seccion-titulo">
+               Hablemos un poco
+            </div>
+            <div class="col-12 col-md-4 descripcion">
+              Contáctame si necesitas apoyo en algún proyecto de programación HTML o CSS
+            </div>
+            <div class="col-12 col-md-4">
+              <a href="mailto:angy72ms@gmail.com">
+                <button type="button">  
+                  Contacto
+                  <i class="bi bi-envelope-check-fill"></i>
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Pie de pagina (footer) -->
+    <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center"> 
+      <img class="footer-logo" src="imagenes/icono-blanco.svg" alt="Logo del portafolio">
+      <p class="footer-texto text-center">Con entusiasmo y perseverancia todo se logra. <br>Cambiemos juntas el mundo</p>
+      <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+        <a href="https://twitter.com/trynafindangie" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-twitter"></i>
+        </a>
+        <a href="https://github.com/angelicalmarquez" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-github"></i>
+        </a>
+        <a href="https://www.instagram.com/a.ngieee.e/" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-instagram"></i>
+        </a>
+        <a href="mailto: angy72msgmail.com" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-envelope"></i>
+        </a>
+      </div>
+      <div class="derechos-de-autor">Creado por Angélica Márquez (Julio 2023) &#169;</div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+        <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+        <script src="main.js"></script>
+
+  </body>
+</html>
